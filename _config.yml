@@ -1,0 +1,44 @@
+# Site settings
+title:       "Percentage Project"
+header_title: "Percentage Project"
+email:       
+webmaster:      Alexander Goodkind
+description: 
+baseurl:     "/Percentage-Project" # no trailing slash !
+url:         "https://agoodkind.github.io/"
+date_format: "%-d.%m.%Y"
+
+defaults:
+  - scope:
+      path: "photos"
+    values:
+      image: true
+
+
+# include trailing slash !!!
+favicon_path: "/assets/img/favicons/"  
+css_path: "/assets/css/"
+js_path: "/assets/js/"
+
+# Facebook
+facebook_app_id: ""
+
+# Social
+github_username:
+bitbucket_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username:
+facebook_username:
+angellist_username:
+medium_id:
+bitcoin_url:
+paypal_url:
+flattr_button:
+instagram_username:
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']

@@ -1,0 +1,204 @@
+@font-face {
+    font-family: NeuzeitS-Book;
+    font-style: normal;
+    src:
+        url('https://cdn-static.blackandwhite-ff.com/static/proenzaschouler/build/fonts/NeuzeitS-BookHeavy.39df4f5840842932b468.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: NeuzeitS-BookHeavy;
+    font-style: normal;
+    src:
+        url('https://cdn-static.blackandwhite-ff.com/static/proenzaschouler/build/fonts/NeuzeitS-BookHeavy.39df4f5840842932b468.woff2') format('woff2');
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    font-family: NeuzeitS-Book, sans-serif;
+}
+
+a {
+
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+}
+
+a:hover, a:focus {
+
+}
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+hr.light {
+  border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: NeuzeitS-BookHeavy, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+section h2 {
+  font-size: 50px;
+}
+
+#mainNav {
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: white;
+  -webkit-transition: all .35s;
+  -moz-transition: all .35s;
+  transition: all .35s;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: NeuzeitS-BookHeavy, sans-serif;
+}
+
+#mainNav .navbar-brand {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  padding: 8px 10px;
+  border-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a {
+  letter-spacing: 2px;
+}
+
+#mainNav .navbar-nav > li > a.active {
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li > a.active:hover {
+  background-color: transparent;
+  color: #00f;
+}
+
+#mainNav .navbar-nav > li > a:hover,
+#mainNav .navbar-nav > li > a:focus:hover {
+    color: #00f;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+
+  }
+  #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li > a,
+  #mainNav .navbar-nav > li > a:focus {
+    color: white;
+  }
+  #mainNav .navbar-nav > li > a:hover,
+  #mainNav .navbar-nav > li > a:focus:hover {
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+
+    background-color: white;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #222222;
+  }
+  #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+
+  }
+  #mainNav.navbar-shrink .navbar-nav > li > a,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus {
+    color: #222222;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li > a:hover,
+  #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
+
+  }
+}
+
+header.masthead {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: white;
+  /* background: url("https://cdn-static.blackandwhite-ff.com/BWContent/ProenzaSchouler/proenza-schouler-fall-2018-campaign-horizontal-tie-dye-dress.jpg") no-repeat center center fixed; */
+  background: black;
+  background-size: cover;
+}
+
+header.masthead .header-content {
+  max-width: 500px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+header.masthead .header-content h1 {
+  font-size: 30px;
+}
+
+header.masthead .device-container {
+  max-width: 325px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header.masthead .device-container .screen img {
+  border-radius: 3px;
+}
+
+header.masthead {
+  height: 100vh;
+  min-height: 700px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  
+  header.masthead .header-content {
+    margin-bottom: 0;
+    text-align: left;
+  }
+  header.masthead .header-content h1 {
+    font-size: 50px;
+  }
+  header.masthead .device-container {
+    max-width: 325px;
+  }
+}
+
